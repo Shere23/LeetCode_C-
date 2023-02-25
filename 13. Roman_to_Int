@@ -1,11 +1,12 @@
 // Given a roman numeral, convert it to an integer.
 
+// Given a roman numeral, convert it to an integer.
+
 int romanToInt(char * s){
 
-    int multiplier = 1,res=0;
+    int res=0;
     while(*s != '\0'){
         int i = 0;
-        printf("Itearation %d - Sum is %d , *s is %c \n",i+=1,res,*s);
         if(*s == 'I'){
             if(*(s+1) == 'V'){
                  res += 4; *s++; 
